@@ -20,7 +20,7 @@ export class CounterApp extends Component {
     return (
       <div>
         <h1>Counter App</h1>
-        <p>count: {this.state.count}</p>
+        <p>Count: {this.state.count}</p>
         <div>
           <button onClick={this.incrementHandler}>Increment</button>
           <button onClick={this.decrementHandler}>Decrement</button>
