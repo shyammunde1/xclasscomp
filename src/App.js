@@ -1,10 +1,11 @@
 
 import './App.css';
+import CounterApp from './components/CounterApp';
 
 function App() {
   return (
     <div className="App">
-      <h1>class component practice</h1>
+      <CounterApp />
     </div>
   );
 }
